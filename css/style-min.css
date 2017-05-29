@@ -1,13 +1,17 @@
 :root {
   --base: #ffc600;
   --spacing: 10px;
-  --blur: 0px; }
+  --blur: 0px;
+  --width: 800px;
+  --height: 500px; }
 
 img {
   padding: var(--spacing);
   background: var(--base);
   -webkit-filter: blur(var(--blur));
-          filter: blur(var(--blur)); }
+          filter: blur(var(--blur));
+  width: var(--width);
+  height: var(--height); }
 
 .hl {
   color: var(--base); }
